@@ -1,2 +1,2 @@
 # This is my first Project 
-* Ushing only html, css *
+* Ushing only html, css
