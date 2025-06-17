@@ -1,0 +1,579 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container{
+	width: 100%;
+	height: 1480px;
+	background: #060d17;
+}
+.menubar{
+	width: 100%;
+	height: 56px;
+	padding: 10px 64px;
+	background: #060d17;
+}
+.menubar-contant{
+	background: #060d17;
+	position: fixed;
+	width: 100%;
+	height: 56px;
+	border-radius: 0px 0px 5px 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 2;
+}
+.item a:hover{
+	color: white;
+}
+.logo{
+	float: left;
+	width: 146px;
+	height: 26px;
+}
+.item{
+	float: left;
+	margin-left: 180px;
+}
+.item a{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	text-decoration: none;
+	margin-left: 20px;
+	margin-right: 40px;
+	color: #999c9f;
+}
+.searchbtn{
+	float: left;
+	width: 800px;
+	height: 35px;
+	font-size: 15px;
+	margin-right: 10px;
+	background: #10161d;
+	border-radius: 4px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	
+}
+.searchbtn input{
+	width: 730px;
+	height: 20px;
+	color: #999c9f;
+	font-size: 15px;
+	margin-left: 10px;
+	background: #10161d;
+	border: none;
+}
+.searchbtn a{
+	position: absolute;
+	margin-left: 50px;
+}
+.searchbtn i{
+	margin-left: 10px;
+	font-size: 25px;
+}
+
+.singin{
+	float: left;
+	color: #999c9f;
+	width: 70px;
+	height: 35px;
+	background: #1c252f;
+	border-radius: 4px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: none;
+}
+.singin:hover{
+	color: white;
+}
+.line{
+	float: left;
+	width: 40px;
+	height: 50px;
+	margin-left: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.fa-solid{
+	font-size: 25px;
+	color: #999c9f;
+}
+.menubar-2{
+	float: left;
+	margin-top: 15px;
+	width: 100%;
+	height: 34px;
+	padding: 10px 64px;
+	background: #0a151f;
+	display: flex;
+	align-items: center;
+}
+.menubar-2 a{
+	float: left;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: #9ea4b3;
+	margin-right: 30px;
+	padding: 10px 5px;
+}
+.menubar-2 a:hover{
+	background: #434f5b;
+	border-radius: 5px;
+}
+
+.content{
+	float: left;
+	width: 1793px;
+	height: 980px;
+	padding: 0px 62px;
+	margin-top: 20px;
+	
+} 
+
+.border{
+	position: absolute;
+	width: 10px;
+	height: 1230px;
+	margin-left: 10px;
+	border-left: 5px solid #1c252f;
+}
+.goll{
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	margin: -10px 0px 0px -10px;
+	background: #1c252f;
+	border-radius: 100%;
+	
+}
+.apkicon{
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	border-radius: 3px;
+	margin: 10px 0px 0px -15px;
+	background: black;
+}
+.apkicon a{
+	position: absolute;
+	color: white;
+	margin: 2px 0px 0px 5px;
+	font-family:  Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	width:50px;
+}
+.poster{
+	float: left;
+	width: 1000px;
+	height: 300px;
+	margin: 40px 0px 0px 10px;
+	display: flex;
+	align-items: flex-end;
+	z-index: 1;
+}
+.post{
+	float: left;
+	width: 200px;
+	height: 270px;
+	margin-right: 20px;
+	border-radius: 5px;
+	background: black;
+	overflow: hidden;
+	
+}
+.apkicon2{
+	position: absolute;
+	color: white;
+	margin: 400px 0px 0px -15px;
+	font-family:  Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	width:50px;
+}
+.apkicon2 a{
+	position: absolute;
+	color: white;
+	margin: 2px 0px 0px 5px;
+	font-family:  Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	width:50px;
+}
+.poster2{
+	float: left;
+	width: 1760px;
+	height: 300px;
+	margin: 90px 0px 0px 10px;
+	display: flex;
+	align-items: flex-end;
+}
+.apkicon3{
+	position: absolute;
+	color: white;
+	margin: 800px 0px 0px -15px;
+	font-family:  Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	width:50px;
+}
+.apkicon3 a{
+	position: absolute;
+	color: white;
+	margin: 2px 0px 0px 5px;
+	font-family:  Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	width:50px;
+}
+.poster3{
+	float: left;
+	width: 1100px;
+	height: 300px;
+	margin: 100px 0px 0px 10px;
+	display: flex;
+	align-items: flex-end;
+}
+.goll1{
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	margin: 1220px 0px 0px -10px;
+	background: #1c252f;
+	border-radius: 100%; 
+}
+@media screen and (max-width: 1620px){
+	.container{
+		width: 1600px;
+		height: 1680px;
+	}
+	.content{
+		width: 1019px;
+	}
+	.poster{
+		width: 1019px;
+	}
+	.menubar{
+		width: 1019px;
+		padding: none;
+		margin-left: 60px;
+	}
+	.menubar-contant{
+		width: 1330px;
+	}
+	.menubar-2{
+		width: 1470px;
+	}
+	.searchbtn{
+		width: 400px;
+	}
+	.item{
+		margin-left: 10px;
+	}
+	.line{
+		display: none;
+	}
+	.poster2{
+		float: left;
+		width: 1300px;
+		height: 570px;
+		margin-right: 0px;
+		display: flex;
+		align-items: flex-start;
+	}
+	.cargo{
+		position: absolute;
+        margin: 300px 0px 0px 0px; 
+	}
+	.interstellar{
+		position: absolute;
+        margin: 300px 0px 0px 220px; 
+	}
+	.apkicon3{
+		margin-top: 1080px;
+	}
+	.border{
+		height: 1450px;
+	}
+	.goll1{
+		margin-top: 1450px;
+	}
+}
+@media screen and (max-width: 960px){
+	.container{
+		width: 940px;
+		height: 1900px;
+	}
+	.menubar{
+		width: 700px;
+		padding: none;
+		
+	}
+	
+	.content{
+		width: 700px;
+		padding: none;
+	}
+	
+	.menubar-contant{
+		width: 900px;
+		height: 70px;
+		display: flex;
+		align-items: flex-end;
+		margin-left: -130px;
+	}
+	.logo{
+		position: absolute;
+		display: flex;
+		align-items: flex-start;
+		margin: -30px 0px 0px 0px;
+	}
+	.searchbtn{
+		width: 300px;
+		height: 25px;
+	}
+	.searchbtn i{
+		font-size: 20px;
+	}
+	.singin{
+		display: none;
+	}
+	.searchbtn input{
+		width: 290px;
+		font-size: 0.9rem;
+	}
+	.menubar-2{
+		width: 812px;
+	}
+	.poster{
+		width:  850px;
+	}
+	.poster2{
+		width:  850px;
+	}
+	.cargo{
+		width: 190px;
+		position: absolute;
+        margin: 300px 0px 0px 425px; 
+	}
+	.interstellar{
+		width: 190px;
+		position: absolute;
+        margin: 300px 0px 0px 640px; 
+	}
+	.spider{
+		width: 190px;
+		position: absolute;
+        margin: 300px 0px 0px 215px; 
+	}
+	.stwer{
+		width: 190px;
+		position: absolute;
+        margin: 300px 0px 0px 00px; 
+	}
+	.poster3{
+		width: 850px;
+		height: 580px;
+		margin-top: 110px;
+		
+		display: flex;
+		align-items: flex-start;
+	}
+	.fury{
+		position: absolute;
+		margin: 310px 0px 0px 0px;
+	}
+	.border{
+		height: 1720px;
+	}
+	.goll1{
+		margin-top: 1720px;
+	}
+}
+@media screen and (max-width: 560px){
+	.container{
+		width: 542px;
+		height: 3200px;
+		
+	}
+	.menubar{
+		width:  350px;
+	}
+	.menubar-contant{
+		background: #020912;
+		border-radius: 0px 0px 5px 5px;
+		width: 544px;
+		
+	}
+	.logo{
+		margin-left: 0px;
+	}
+	.item{
+		width: 400px;
+		margin-left: -140px;
+	}
+	.item a{
+		font-size: 0.8rem;
+		margin-right: 0px;
+		
+	}
+	.searchbtn{
+		position: absolute;
+		width: 240px;
+		height: 25px;
+		margin-left: 290px;
+	}
+	.searchbtn i{
+		font-size: 20px;
+	}
+	.searchbtn input{
+		width: 230px;
+		font-size: 0.8rem;
+	}
+	.menubar-2{
+		width: 412px;
+	}
+	.content{
+		width: 400px;
+		padding: none;
+	}
+	.poster{
+		width: 440px;
+		height: 560px;
+		display:flex;
+		align-items: flex-start;
+	}
+	.post3{
+		position: absolute;
+		margin: 280px 0px 0px 0px;
+			
+	}
+	.post4{
+		position: absolute;
+		margin: 280px 0px 0px 220px;
+			
+	}
+	.apkicon2{
+		margin-top: 650px;
+	}
+	.poster2{
+		width: 440px;
+		height: 1190px;
+	}
+	.post5{
+		position: absolute;
+		margin: 0px 0px 0px 0px;
+	}
+	.post6{
+		position: absolute;
+		margin: 0px 0px 0px 220px;
+	}
+	.post7{
+		position: absolute;
+		margin: 300px 0px 0px 0px;
+	}
+	.post8{
+		position: absolute;
+		margin: 300px 0px 0px 220px;
+	}
+	.stwer{
+		width: 200px;
+		position: absolute;
+		margin: 600px 0px 0px 220px;
+	}
+	.spider{
+		width: 200px;
+		position: absolute;
+		margin: 600px 0px 0px 0px;
+	}
+	.cargo{
+		width: 200px;
+		position: absolute;
+		margin: 900px 0px 0px 0px;
+	}
+	.interstellar{
+		width: 200px;
+		position: absolute;
+		margin: 900px 0px 0px 220px;
+	}
+	.apkicon3{
+		margin-top: 1940px;
+	}
+	.border{
+		height: 2920px;
+	}
+	.goll1{
+		margin-top: 2920px;
+	}
+	.poster3{
+		width: 440px;
+		height: 1060px;
+		display:flex;
+		align-items: flex-start;
+	}
+	.post9{
+		position: absolute;
+		margin: 0px 0px 0px 220px;
+	}
+	.post10{
+		position: absolute;
+		margin: 310px 0px 0px 220px;
+	}
+	.post11{
+		position: absolute;
+		margin: 600px 0px 0px 0px;
+	}
+}
+.down{
+	position: fixed;
+	margin-left: 50%;
+	transform: translateX(-50%);
+	width: 90%;
+	height: 56px;
+	border-radius: 5px 5px 0px 0px;
+	opacity: 0.8;
+	background: #03080E;
+	display: flex;
+	align-items: center;
+	bottom: 0;
+}
+.down > p{
+	float: left;
+	color: #DDDDDD;
+	margin: 0px 0px 0px 200px;
+	font-size: 0.9rem;
+}
+.button{
+	float: left;
+	padding: 2px;
+	background: #fbc500;
+	border-radius: 3px;
+	font-size: 1rem;
+	border: none;
+	margin-left: 20px;
+}
+.button:hover{
+	float: left;
+	padding: 2px;
+	color: #E3E3E3;
+	background: #9E7C00;
+	border-radius: 3px;
+	font-size: 1rem;
+	border: none;
+	margin-left: 20px;
+}
+.button1{
+	float: left;
+	background: #03080E;
+	padding: 1.9px;
+	border-radius: 3px;
+	font-size: 1.2rem;
+	color: #D7D7D7;
+	border: none;
+	margin-left: 20px;
+}
+.button1:hover{
+	float: left;
+	background: #111b24;
+	padding: 1.9px;
+	border-radius: 3px;
+	font-size: 1.2rem;
+	color: #E3E3E3;
+	border: none;
+	margin-left: 20px;
+}
